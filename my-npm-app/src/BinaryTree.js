@@ -6,6 +6,7 @@ export class ArbolBinario {
   }
 
   insertar(valor) {
+    
     const nuevoNodo = new Nodo(valor);
     if (!this.raiz) {
       this.raiz = nuevoNodo;

@@ -4,6 +4,7 @@ import { BinaryTree } from './Tree';
 import { ArbolBinario } from './BinaryTree';
 
 function App() {
+  
   const arbolRef = useRef(new ArbolBinario());
   const [valor, setValor] = useState('');
   const [busqueda, setBusqueda] = useState('');
